@@ -1,13 +1,9 @@
 import React from 'react';
 
-const Todo = (props) => {
-    return (
-        <div>
-            <ul>
-                <li>{props.toDo}</li>
-            </ul>
-        </div>
-    );
+const Todo = ({toDo, isDone}) => {
+    if(isDone === false){
+        return toDo;
+    }
 };
 
 export default Todo;

@@ -10,8 +10,8 @@ function App() {
 
   return (
     <>
-      <Todo toDo='Learn More about react.'></Todo>
-      <Todo toDo='Learn More about Javascipt.'></Todo>
+      <Todo toDo='Learn More about react.' isDone ={false}></Todo>
+      <Todo toDo='Learn More about Javascipt.' isDone={true}></Todo>
     </>
   )
 }
