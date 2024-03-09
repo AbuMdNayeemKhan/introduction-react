@@ -1,9 +1,11 @@
 import React from 'react';
 
 const Todo = ({toDo, isDone}) => {
-    if(isDone === false){
-        return toDo;
-    }
+    return (
+        <div>
+            {isDone ? 'Finished' : 'Work on'} : {toDo}
+        </div>
+        ); 
 };
 
 export default Todo;
