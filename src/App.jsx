@@ -2,16 +2,15 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import './Todo'
-import Todo from './Todo'
+import Handeler from './Handeler'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Todo toDo='Learn More about react.' isDone ={false}></Todo>
-      <Todo toDo='Learn More about Javascipt.' isDone={true}></Todo>
+      <h3>React Core Concepts 2</h3>
+      <button onClick={clickHandelerOne}>Clicked</button>
     </>
   )
 }
@@ -20,6 +19,10 @@ function Device(props){
   return(
     <h1>The product name is: {props.name}. and price is: {props.price}.</h1>
   )
+}
+
+function clickHandelerOne(){
+  alert('Bangladesh');
 }
 
 function Students({name, score}){
