@@ -5,13 +5,14 @@ import './App.css'
 import Handeler from './Handeler'
 import Counter from './Counter'
 
+
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Counter></Counter>
-      <Counter></Counter>
+      <Friends></Friends>
     </>
   )
 }
