@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Handeler from './Handeler'
 import Counter from './Counter'
+import Friends from './Friends'
 
 
 
